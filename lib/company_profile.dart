@@ -1,4 +1,3 @@
-
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -15,7 +14,7 @@ class CompanyProfile extends StatelessWidget {
             color: Colors.white,
           ),
         ),
-        backgroundColor: Colors.blue,
+        backgroundColor: Colors.blueGrey,
       ),
       body: SafeArea(
           child: Center(
@@ -38,7 +37,7 @@ class CompanyProfile extends StatelessWidget {
                         'Tidy LifeIndia Pvt Ltd',
                         style: TextStyle(
                           fontSize: 20,
-                          color: Colors.blue,
+                          color: Colors.blueGrey,
                         ),
                       ),
                     )
@@ -50,7 +49,7 @@ class CompanyProfile extends StatelessWidget {
                     height: 20,
                     width: 250,
                     child: Divider(
-                      color: Colors.blue,
+                      color: Colors.blueGrey,
                     ),
                   ),
                 ),
@@ -59,13 +58,13 @@ class CompanyProfile extends StatelessWidget {
                   child: ListTile(
                     leading: Icon(
                       Icons.phone,
-                      color: Colors.blue,
+                      color: Colors.blueGrey,
                     ),
                     title: Text(
                       '+91 8610338291',
                       style: TextStyle(
                         fontSize: 20,
-                        color: Colors.blue,
+                        color: Colors.blueGrey,
                       ),
                     ),
                   ),
@@ -75,13 +74,13 @@ class CompanyProfile extends StatelessWidget {
                   child: ListTile(
                     leading: Icon(
                       Icons.email,
-                      color: Colors.blue,
+                      color: Colors.blueGrey,
                     ),
                     title: Text(
                       'tidylifeindia@gmail.com',
                       style: TextStyle(
                         fontSize: 20,
-                        color: Colors.blue,
+                        color: Colors.blueGrey,
                       ),
                     ),
                   ),
